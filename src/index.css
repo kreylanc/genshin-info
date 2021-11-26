@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar-mobile {
+  @apply fixed bg-gray-dark flex flex-col z-10 h-screen font-bold text-xl transition-transform duration-300 ease-in py-32 sm:hidden;
+}
+
 .nav-sub {
-  @apply p-2 relative;
+  @apply p-2 h-full relative hover:text-white;
 }
 
 .nav-sub.active::before {
   content: "";
-  @apply h-0.5 absolute w-full left-0 bottom-0 bg-white transition-transform
-    duration-300;
+  @apply h-0.5 absolute w-full left-0 bottom-0 bg-white transition-transform duration-300 rounded-full;
 }
 
 .active {
@@ -18,4 +21,12 @@
 
 .active::before {
   @apply transform scale-100;
+}
+
+.filter-container {
+  @apply flex flex-col md:flex-row md:items-center mt-2 md:mt-4;
+}
+
+.filter-btn {
+  @apply py-2 px-4 hover:bg-blue-100 hover:text-white rounded-sm transition-colors duration-200;
 }

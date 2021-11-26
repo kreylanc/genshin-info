@@ -10,14 +10,14 @@ function App() {
     <div className="bg-gray-dark pb-4">
       <Router>
         <Navbar />
-        //when changing routes the scroll position doesnt revert to top
+        {/* when changing routes the scroll position doesnt revert to top */}
         <ScrollToTop />
         <Switch>
           <Route exact path="/characters">
             <CharacterScreen />
           </Route>
-          //need to pass the component throught Route param inorder to access
-          the 'match' variable
+          {/* need to pass the component throught Route param inorder to access
+          the 'match' variable */}
           <Route path="/characters/:id" component={CharacterDetails}></Route>
         </Switch>
       </Router>

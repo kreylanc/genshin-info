@@ -1,9 +1,9 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  weapon: "all",
-  vision: "all",
-  rarity: "all",
+  weapon: "",
+  vision: "",
+  rarity: "",
 };
 
 export const filterSlice = createSlice({
