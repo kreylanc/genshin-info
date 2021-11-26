@@ -1,0 +1,22 @@
+{
+  "albedo": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t02_skill_AbiogenesisSolarIsotoma.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t03_burst_RiteOfProgrenitureTectonicTide.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t04_combatPassive_CalciteSuppression.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t05_combatPassive_HomuncularNature.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t06_systemPassive_GeniusUnearthed.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/c01_FlowerOfEden.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/c02_AeonOfLife.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t02_skill_AbiogenesisSolarIsotoma.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/c04_DescentOfDivinity.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t03_burst_RiteOfProgrenitureTectonicTide.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/c06_DomainOfPurification.png"
+    ]
+  }
+}

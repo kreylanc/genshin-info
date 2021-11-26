@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import NavOptions from "./NavOptions";
+import { MenuIcon, XIcon } from "@heroicons/react/solid";
 
 function Navbar() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
   return (
     <div className="bg-gray-light bg-opacity-50 w-full m-auto flex text-white h-20">
       <div className="w-full lg:w-4/5 flex m-auto items-center p-2 justify-between transition-all duration-200 ease-in">
@@ -12,7 +18,28 @@ function Navbar() {
           />
         </div>
 
-        <div className="hidden sm:flex space-x-6 mr-4 lg:mr-8 font-bold text-xl">
+        <div
+          className="sm:hidden absolute right-5 z-30 cursor-pointer "
+          onClick={() => {
+            handleClick();
+          }}
+        >
+          {clicked ? <XIcon className="h-9" /> : <MenuIcon className="h-9" />}
+        </div>
+        <div
+          className={
+            clicked
+              ? " navbar-mobile  top-0 right-0 left-1/4 "
+              : "navbar-mobile top-0 left-28 right-0 transform translate-x-full "
+          }
+        >
+          <NavOptions link="/characters" title="Characters" />
+          <NavOptions link="/artifacts" title="Artifacts" />
+          <NavOptions link="/domain" title="Domain" />
+          <NavOptions link="/weapons" title="Weapons" />
+        </div>
+
+        <div className={"hidden sm:flex  sm:mr-4 lg:mr-8 font-bold text-xl"}>
           <NavOptions link="/characters" title="Characters" />
           <NavOptions link="/artifacts" title="Artifacts" />
           <NavOptions link="/domain" title="Domain" />

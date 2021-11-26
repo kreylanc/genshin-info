@@ -2,34 +2,78 @@ import React, { useEffect, useState } from "react";
 import axios from "../../api/axios";
 import requests from "../../api/requests";
 import { Link } from "react-router-dom";
+import {
+  weaponFilter,
+  visionFilter,
+  rarityFilter,
+  selectWeapon,
+  selectVision,
+  selectRarity,
+} from "../../features/filterSlice";
+import { useDispatch, useSelector } from "react-redux";
+import SkeletonLoading from "./SkeletonLoading";
 
 function CharacterRow() {
+  const dispatch = useDispatch();
+
+  const exception = ["Traveler", "Raiden", "Hu Tao"];
+
   const [characters, setCharacters] = useState([]);
   const [charDetails, setCharDetails] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const weapon = useSelector(selectWeapon);
+  const vision = useSelector(selectVision);
+  const rarity = useSelector(selectRarity);
+
   const baseUrl = "https://api.genshin.dev/";
+  //append any part of the url while filtering data
+  let filterUrl = "";
 
   // TODO: in the API, appending /all will allow to fetch all the characters and its details
-  // TODO: so need to loop through array from the first link to get details just use "characters/all"
+  // TODO: so no need to loop through array from the first link to get details just use "characters/all"
   // * to filter data use ?weapon=Bow&vision=Geo after /all
 
-  const fetchCharDetails = () => {
-    //the api returns data in an object
-    const promise = characters.map(async (character) => {
-      return await axios
-        .get(`${requests.fetchCharacters}/${character}`)
-        .then((response) => {
-          return response.data;
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    });
+  const fetchCharDetails = async () => {
+    //checking if the filter is empty (meaning display all)
+    if (weapon == "" && vision == "" && rarity == "") {
+      filterUrl = "";
+    }
+    // when all the filters are selected
+    else if (weapon != "" && vision != "" && rarity != "") {
+      filterUrl = `weapon=${weapon}&vision=${vision}&rarity=${rarity}`;
+    }
+    //when only weapon filter is selected
+    else if (weapon != "" && vision == "" && rarity == "") {
+      filterUrl = `weapon=${weapon}`;
+    }
+    //when only vision filter is selected
+    else if (weapon == "" && vision != "" && rarity == "") {
+      filterUrl = `vision=${vision}`;
+    }
+    //when only rarity filter is selected
+    else if (weapon == "" && vision == "" && rarity != "") {
+      filterUrl = `rarity=${rarity}`;
+    }
+    //if not empty then provide the condition in the api to filter data
+    //condition when weapon filter is selected
+    else {
+      if (weapon != "" && rarity != "") {
+        filterUrl = `weapon=${weapon}&rarity=${rarity}`;
+      } else if (weapon != "" && vision != "") {
+        console.log("hello??");
 
-    Promise.all(promise).then((results) => {
-      setCharDetails(results);
-    });
+        filterUrl = `weapon=${weapon}&vision=${vision}`;
+      } else if (vision != "" && rarity != "") {
+        filterUrl = `vision=${vision}&rarity=${rarity}`;
+      }
+    }
+
+    const promise = await axios.get(
+      `${requests.fetchCharacters}/all?${filterUrl}`
+    );
+
+    setCharDetails(promise.data);
   };
 
   //the useEffect is used for fetching character names from the api
@@ -45,7 +89,7 @@ function CharacterRow() {
     // fetchCharDetails();
   }, []);
 
-  //this useEffect is used for fetching character details using the data fetched from the function fetchData()
+  //this useEffect is used for fetching character details
   useEffect(() => {
     fetchCharDetails();
 
@@ -53,49 +97,86 @@ function CharacterRow() {
       setLoading(false);
     }
 
-    //character array is passed as dependency because the  this array is empty when the data is being fetched
-    //so need to rerun the function when the array value changes to use its value in the fetchCharDetails function
-  }, [characters]);
+    //cleaning up when the component unmounts
+    return () => {
+      // dispatch(weaponFilter(""));
+      // dispatch(visionFilter(""));
+      // dispatch(rarityFilter(""));
+    };
 
-  const capitalizeFirstLetter = (string) => {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  };
+    //rerun the useEffect when there is change in one of these values
+  }, [weapon, vision, rarity, characters]);
 
   const lowerCaseFirstLetter = (string) => {
-    return string.charAt(0).toLowerCase() + string.slice(1);
+    return string.toLowerCase();
+  };
+
+  // ** some characters have full name e.g. Kamisato Ayaka so this function returns only Ayaka
+  //the exception array is made because some characters dont follow the pattern
+  //the vision parameter is only required in the case of "Traveler" character
+  const getFirstName = (string, vision) => {
+    // \s means there is atleast 1 spaces
+    var reWhiteSpace = new RegExp(/\s/);
+
+    var ignoreName = false;
+
+    //checking the name passed from the parameter matches from the exception array
+    for (let i = 0; i < exception.length; i++) {
+      ignoreName = string.includes(exception[i]);
+
+      if (ignoreName) {
+        string = exception[i];
+        break;
+      }
+    }
+
+    // Check for white space i.e. the character has full name
+    if (reWhiteSpace.test(string) && !ignoreName) {
+      return string.substring(string.indexOf(" ") + 1);
+    } else {
+      if (string === "Traveler" && vision != undefined) {
+        return (string = string + "-" + vision);
+      } else if (string === "Hu Tao") {
+        return (string = "Hu-Tao");
+      }
+      return string;
+    }
   };
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-2 md:gap-y-1 gap-x-4 xl:grid-cols-3 mt-4 min-h-screen text-base">
-      {/* {console.log(charDetails)} */}
+    <div className="grid grid-cols-2 grid-flow-row md:grid-cols-2 md:gap-y-1 gap-x-4 xl:grid-cols-3 mt-4 text-base">
       {!loading ? (
         charDetails.map((char, i) => (
           <div key={i}>
             <Link
-              to={`/characters/${characters[i]}`}
-              className="bg-gray-light flex flex-col md:flex-row justify-between m-2 rounded cursor-pointer hover:bg-blue-100 transition-all duration-150 ease-in md:h-28"
+              to={`/characters/${lowerCaseFirstLetter(
+                getFirstName(char.name, char.vision)
+              )}`}
+              className="bg-gray-light flex flex-col md:flex-row justify-between m-2 rounded cursor-pointer transform hover:scale-105 hover:shadow-lg transition-all duration-200 ease-in md:h-28"
             >
               <div className="order-2 md:order-1 py-2 px-2 md:w-32 flex flex-col items-center md:items-start">
                 <div className="flex items-center ">
-                  <h1 className="text-xl font-semibold">
-                    {capitalizeFirstLetter(characters[i])}
+                  <h1 className="text-xl font-semibold text-white">
+                    {getFirstName(char.name)}
                   </h1>
                   <img
                     src={`${baseUrl}elements/${lowerCaseFirstLetter(
                       char.vision
                     )}/icon.png`}
                     alt="icon"
-                    className="object-contain h-6 pl-1 mt-1"
+                    className="object-contain h-6 ml-2"
                   />
                 </div>
 
                 <span className="flex space-x-1 text-gray-200">
                   {/* <h2 className="pr-1">{char.vision}</h2> */}
-                  <h2>{charDetails[i].weapon}</h2>
+                  <h2>{char.weapon}</h2>
                 </span>
               </div>
               <img
-                src={`${baseUrl}characters/${characters[i]}/icon.png`}
+                src={`${baseUrl}characters/${lowerCaseFirstLetter(
+                  getFirstName(char.name, char.vision)
+                )}/icon.png`}
                 alt="icon"
                 className="h-20 md:h-auto md:ml-20 object-contain rounded-br order-1 md:order-2"
               />
@@ -103,35 +184,7 @@ function CharacterRow() {
           </div>
         ))
       ) : (
-        <div>
-          <div className="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
-            <div className="animate-pulse flex space-x-4">
-              <div className="flex-1 space-y-4 h-28 py-1">
-                <div className="h-4 bg-gray-400 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-400 rounded w-2/6"></div>
-              </div>
-              <div className=" bg-gray-400 h-28 w-28"></div>
-            </div>
-          </div>
-          <div className="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
-            <div className="animate-pulse flex space-x-4">
-              <div className="flex-1 space-y-4 h-28 py-1">
-                <div className="h-4 bg-gray-400 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-400 rounded w-2/6"></div>
-              </div>
-              <div className=" bg-gray-400 h-28 w-28"></div>
-            </div>
-          </div>
-          <div className="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
-            <div className="animate-pulse flex space-x-4">
-              <div className="flex-1 space-y-4 h-28 py-1">
-                <div className="h-4 bg-gray-400 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-400 rounded w-2/6"></div>
-              </div>
-              <div className=" bg-gray-400 h-28 w-28"></div>
-            </div>
-          </div>
-        </div>
+        <SkeletonLoading type="row" />
       )}
     </div>
   );
