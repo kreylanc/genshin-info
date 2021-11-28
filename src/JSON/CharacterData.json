@@ -18,5 +18,733 @@
       "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/t03_burst_RiteOfProgrenitureTectonicTide.png",
       "https://www.gensh.in/fileadmin/Database/Characters/Albedo/skillIcon/c06_DomainOfPurification.png"
     ]
+  },
+  "aloy": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t01_RapidFire.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t02_skill_FrozenWilds.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t03_burst_PropheciesofDawn.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t04_combatPassive_CombatOverride.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t05_combatPassive_StrongStrike.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/t06_systemPassive_EasyDoesIt.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Aloy/skillIcon/c01_StarofAnotherWorld.png"
+    ]
+  },
+  "amber": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t02_skill_ExplosivePuppet.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t03_burst_FieryRain.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t04_combatPassive_EveryArrowFindsItsTarget.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t05_combatPassive_PreciseShot.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t06_worldPassive_ChampionGlider.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/c01_OneArrowToRuleThemAll.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/c02_BunnyTriggered.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t03_burst_FieryRain.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/c04_ItsNotJustAnyDoll.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/t02_skill_ExplosivePuppet.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/c06_Wildfire.png"
+    ]
+  },
+  "ayaka": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t01_KamisatoArtKabuki.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t02_skill_KamisatoArtHyouka.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t03_burst_KamisatoArtSoumetsu.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_23301.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t04_combatPassive_AmatsumiKunitsumiSanctification.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t05_combatPassive_KantenSenmyouBlessing.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t06_systemPassive_TheFruitsofReflection.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c01_SnowsweptSakura.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c02_BlizzardBladeSekinoTo.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c03_FrostbloomKamifubuki.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c04_EbbandFlow.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c05_BlossomCloudIrutsuki.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/c06_DanceofSuigetsu.png"
+    ]
+  },
+  "barbara": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t02_skill_LetTheShowBegin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t03_burst_ShiningMiracle.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t04_combatPassive_GloriousSeason.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t05_combatPassive_Encore.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t06_systemPassive_WithMyWholeHeart.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/c01_GleefulSongs.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/c02_VitalityBurst.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t03_burst_ShiningMiracle.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/c04_AttentivenessBeMyPower.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/t02_skill_LetTheShowBegin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Barbara/skillIcons/c06_DedicatingEverythingToYou.png"
+    ]
+  },
+  "beidou": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t02_skill_Tidecaller.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t03_burst_Stormbreaker.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t04_combatPassive_Retribution.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t05_combatPassive_LightningStorm.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t06_worldPassive_ConquerorOfTides.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/c01_SeaBeastsScourge.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/c02_UponTheTurbulentSeaTheThunderArises.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t02_skill_Tidecaller.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/c04_StunningRevenge.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/t03_burst_Stormbreaker.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Beidou/skillIcons/c06_BaneOfTheEvil.png"
+    ]
+  },
+  "bennett": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t02_skill_PassionOverload.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t03_burst_FantasticVoyage.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t04_combatPassive_Rekindle.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t05_combatPassive_Fearnaught.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t06_systemPassive_ItShouldBeSafe.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/c01_GrandExpectation.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/c02_ImpasseConqueror.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t02_skill_PassionOverload.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/c04_UnexpectedOdyssey.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/t03_burst_FantasticVoyage.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Benett/skillIcons/c06_FireVentureWithMe.png"
+    ]
+  },
+  "chongyun": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t02_skill_SpiritBladeChonghuasLayeredFrost.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t03_burst_SpiritBladeCloudpartingStar.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t04_combatPassive_SteadyBreathing.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t05_combatPassive_RimechaserBlade.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t06_systemPassive_GallantJourney.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/c01_IceUnleashed.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/c02_AtmosphericRevolution.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t03_burst_SpiritBladeCloudpartingStar.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/c04_FrozenSkies.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/t02_skill_SpiritBladeChonghuasLayeredFrost.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Chongyun/skillIcons/c06_RallyOfTheFourBlades.png"
+    ]
+  },
+  "diluc": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t02_skill_SearingOnslaught.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t03_burst_Dawn.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t04_combatPassive_Relentless.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t05_combatPassive_BlessingOfPhoenix.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t06_systemPassive_TraditionOfTheDawnKnight.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/c01_Conviction.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/c02_SearingEmber.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t02_skill_SearingOnslaught.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/c04_FlowingFlame.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/t03_burst_Dawn.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diluc/skillIcons/c06_FlamingSwordNemesisOfDark.png"
+    ]
+  },
+  "diona": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t02_skills_IcyPaws.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t03_burst_SignatureMix.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t04_combatPassive_CatsTailSecretMenu.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t05_combatPassive_DrunkardsFarce.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t06_systemPassive_ComplimentaryBarFood.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/c01_LingeringFlavor.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/c02_ShakenNotPurred.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t03_burst_SignatureMix.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/c04_WineIndustrySlayer.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/t02_skills_IcyPaws.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Diona/skillIcons/c06_CatsTailClosingTime.png"
+    ]
+  },
+  "eula": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t02_skill_IcetideVortex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t03_burst_GlacialIllumination.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t04_combatPassive_RoilingRime.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t05_combatPassive_WellspringofWarLust.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t06_systemPassive_AristocraticIntrospection.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/c01_TidalIllusion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/c02_LadyOfSeafoam.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t02_skill_IcetideVortex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/c04_TheObstinacyOfOnesInferiors.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/t03_burst_GlacialIllumination.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Eula/skillIcon/c06_NobleObligation.png"
+    ]
+  },
+  "fischl": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t02_skill_Nightrider.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t03_burst_MidnightPhantasmagoria.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t04_combatPassive_StellarPredator.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t05_combatPassive_UndoneBeThySinfulHex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t06_systemPassive_MeinHausgarten.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/c01_GazeOfTheDeep.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/c02_DevourerOfAllSins.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t02_skill_Nightrider.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/c04_HerPilgrimageOfBleak.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/t03_burst_MidnightPhantasmagoria.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Fischl/skillIcons/c06_EvernightRaven.png"
+    ]
+  },
+  "ganyu": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t02_skill_TrailOfTheQilin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t03_burst_CelestialShower.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t04_combatPassive_UndividedHeart.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t05_combatPassive_HarmonyBetweenHeavenAndEarth.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t06_systemPassive_PreservedForThehunt.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/c01_DewDrinker.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/c02_TheAuspicious.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t03_burst_CelestialShower.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/c04_WestwardSojourn.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/t02_skill_TrailOfTheQilin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ganyu/skillIcons/c06_TheClement.png"
+    ]
+  },
+  "hu-tao": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_03.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t02_skill_guideToAfterlife.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t03_burst_spiritSoother.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t04_combatPassive_flutterBy.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t05_combatPassive_sanguineRouge.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t06_systemPassive_theMoreTheMerrier.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/c01_crimsonBouquet.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/c02_ominousRainfall.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t02_skill_guideToAfterlife.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/c04_gardenOfEternalRest.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/t03_burst_spiritSoother.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/HuTao/skillIcons/c06_butterflysEmbrace.png"
+    ]
+  },
+  "jean": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t02_skill_GaleBlade.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t03_burst_DandelionBreeze.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t04_combatPassive_WindCompanion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t05_combatPassive_LetTheWindLead.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t06_systemPassive_ContinuousImprovement.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/c01_SpiralingTempest.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/c02_PeoplesAegis.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t03_burst_DandelionBreeze.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/c04_LandsOfDandelion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/t02_skill_GaleBlade.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Jean/skillIcons/c06_LionsFangFairProtectorOfMondstadt.png"
+    ]
+  },
+  "kaeya": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t02_skill_Frostgnaw.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t03_burst_GlacialWaltz.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t04_combatPassive_ColdBloodedStrike.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t05_combatPassive_GlacialHeart.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t06_worldPassive_HiddenStrength.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/c01_ExcellentBlood.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/c02_NeverEndingPerformance.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t02_skill_Frostgnaw.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/c04_FrozenKiss.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/t03_burst_GlacialWaltz.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kaeya/skillIcons/c06_GlacialWhirlwind.png"
+    ]
+  },
+  "kazuha": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/t02_skill_Chihayafuru.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/t03_burst_ManyounoIttou.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/t04_combatPassive_WeatheringBlade.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/t05_combatPassive_WindsongPoetics.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/t06_systemPassive_MatsukazeKaryuu.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c01_SenzanKouhen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c02_YamaarashiZanshin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c03_FuushuuKitan.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c04_OozoraGenpou.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c05_BanseinoShuu.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kazuha/skillIcons/c06_KetsusekiHaku.png"
+    ]
+  },
+  "keqing": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t02_skills_StellarRestoration.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t03_burst_StarwardSword.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t04_combatPassive_ThunderingPenance.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t05_combatPassive_AristocraticDignity.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t06_systemPassive_LandsOverseer.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/c01_ThunderingMight.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/c02_KeenExtraction.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t03_burst_StarwardSword.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/c04_Attunement.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/t02_skills_StellarRestoration.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Keqing/skillIcons/c06_TenaciousStar.png"
+    ]
+  },
+  "klee": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t02_skill_JumptyDumpty.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t03_burst_SparksNSplash.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t04_combatPassive_PoundingSurprise.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t05_combatPassive_SparklingBurst.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t06_worldPassive_AllOfMyTreasures.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/c01_ChainedReactions.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/c02_ExplosiveFrags.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t02_skill_JumptyDumpty.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/c04_SparklyExplosion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/t03_burst_SparksNSplash.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Klee/skillIcons/c06_BlazingDelight.png"
+    ]
+  },
+  "kokomi": {
+    "skillTalents": ["", "", ""],
+    "passiveTalents": ["", "", ""],
+    "constellations": ["", "", "", "", "", ""]
+  },
+  "lisa": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t02_skill_VioletArc.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t03_LightningRose.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t04_combatPassive_InductedAftershock.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t05_combatPassive_StaticElectricityField.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t06_systemPassive_GeneralPharmaceutics.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/c01_InfiniteCircuit.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/c02_ElectromagneticField.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t03_LightningRose.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/c04_PlasmaEruption.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/t02_skill_VioletArc.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Lisa/skillIcons/c06_PulsatingWitch.png"
+    ]
+  },
+  "mona": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t02_skill_MirrorReflectionOfDoom.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t04_burst_StellarisPhantasm.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_413301.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t05_combatPassive_ComeNGetMeHag.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t06_combatPassive_WaterborneDestiny.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t07_systemPassive_PrincipiumOfAstrology.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/c01_ProphecyOfSubmersion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/c02_LunarChain.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t04_burst_StellarisPhantasm.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/c04_ProphecyOfOblivion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/t02_skill_MirrorReflectionOfDoom.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Mona/skillIcons/c06_RhetoricsOfCalamitas.png"
+    ]
+  },
+  "ningguang": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t02_skill_JadeScreen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t03_burst_Starshatter.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t04_combatPassive_BackupPlan.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t05_combatPassive_StrategicReserve.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t06_worldPassive_TroveOfMarvelousTreasures.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/c01_PiercingFragments.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/c02_shockEffect.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t03_burst_Starshatter.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/c04_ExquisiteBeTheJadeOutshiningAllTheBeneath.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/t02_skill_JadeScreen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Ningguang/skillIcons/c06_GrandeurBeTheSevenStars.png"
+    ]
+  },
+  "noelle": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t02_skill_Breastplate.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t03_burst_SweepingTime.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t04_combatPassive_Devotion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t05_combatPassive_NiceAndClean.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t06_systemPassive_MaidsKnighthood.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/c01_IGotYourBack.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/c02_CombatMaid.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t02_skill_Breastplate.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/c04_ToBeCleaned.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/t03_burst_SweepingTime.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Noelle/skillIcons/c06_MustBeSpotless.png"
+    ]
+  },
+  "qiqi": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t02_skill_AdeptusArtHeraldOfFrost.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t03_AdeptusartPreserverOfFortune.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t04_combatPassive_LifeProlongingMethods.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t05_combatPassive_AGlimpseIntoArcanum.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t06_worldPassive_FormerLifeMemories.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/c01_AscetisOfFrost.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/c02_FrozenToTheBone.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t03_AdeptusartPreserverOfFortune.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/c04_DivineSuppression.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/t02_skill_AdeptusArtHeraldOfFrost.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Qiqi/skillIcons/c06_RiteOfResurrection.png"
+    ]
+  },
+  "raiden": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t01_origin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t02_skill_TranscendenceBalefulOmen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t03_burst_SecretArtMusouShinsetsu.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t04_combatPassive_wishesUnnumbered.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t05_combatPassive_enlightenedOne.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/t06_systemPassive_allPreserver.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c01_ominousIncscription.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c02_steelbreaker.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c03_shinkageBygones.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c04_pledgeOfPropriety.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c05_shogunsDescent.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Raiden/skillIcons/c06_wishbearer.png"
+    ]
+  },
+  "razor": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_04.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t02_skill_ClawAndThunder.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t03_burst_LightningFang.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t04_combatPassive_Awakening.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t05_combatPassive_Hunger.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t06_worldPassive_Wolvensprint.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/c01_WolfsInstinct.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/c02_Suppression.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t03_burst_LightningFang.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/c04_Bite.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/t02_skill_ClawAndThunder.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Razor/skillIcons/c06_LupusFulguris.png"
+    ]
+  },
+  "rosaria": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_03.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t02_skill_ravagingConfession.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t03_burst_ritesOfTermination.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t04_combatPassive_reginaProbatium.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t05_combatPassive_shadowSamaritan.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t06_worldPassive_nightWalk.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/c01_unholyRevelation.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/c02_landWithoutPromise.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t02_skill_ravagingConfession.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/c04_painfulGrace.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/t03_burst_ritesOfTermination.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Rosaria/skillIcon/c06_divineRetribution.png"
+    ]
+  },
+  "sara": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t01_TenguBowmanship.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t02_skill_TenguStormcall.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t03_burst_SubjugationKoukouSendou.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t04_combatPassive_ImmovableWill.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t05_combatPassive_Decorum.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/t06_systemPassive_LandSurvey.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c01_Crow_sEye.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c02_DarkWings.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c03_TheWarWithin.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c04_ConclusiveProof.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c05_Spellsinger.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Kujou_Sara/skillIcon/c06_SinofPride.png"
+    ]
+  },
+  "sayu": {
+    "skillTalents": ["", "", ""],
+    "passiveTalents": ["", "", ""],
+    "constellations": ["", "", "", "", "", ""]
+  },
+  "sucrose": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t02_skill_AstableAnemohypostasisCreation6308.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t03_burst_ForbiddenCreationIsomer75TypeII.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t04_combatPassive_CatalystConversion.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t05_combatPassive_MollisFavonius.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t06_systemPassive_AstableInvention.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/c01_ClusteredVacuum.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/c03_BethUnboundForm.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t02_skill_AstableAnemohypostasisCreation6308.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/c04_Alchemania.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/t03_burst_ForbiddenCreationIsomer75TypeII.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Sucrose/skillIcons/c06_ChaoticEntropy.png"
+    ]
+  },
+
+  "tartaglia": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/t02_skill_FoulLegacyRagingTide.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c03_burst_HavocObliteration.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/t04_combatPassive_NeverEnding.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/t05_combatPassive_SwordOfTorrents.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/t06_systemPassive_MasterOfWeaponry.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c01_FoulLegacyTideWithholder.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c02_FoulLegacyUnderstream.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/t02_skill_FoulLegacyRagingTide.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c04_AbyssalMayhemHydrospout.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c03_burst_HavocObliteration.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c06_HavocAnnihilation.png"
+    ]
+  },
+  "thoma": {
+    "skillTalents": ["", "", ""],
+    "passiveTalents": ["", "", ""],
+    "constellations": ["", "", "", "", "", ""]
+  },
+  "venti": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_02.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t02_skill_SkywardSonnet.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t03_WingsGrandOde.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t04_combatPassive_EmbraceOfWinds.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t05_Stormeye.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t06_worldPassive_Windrider.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/c01_SplittingGale.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/c02_BreezeOfReminiscence.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t03_WingsGrandOde.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/c04_HurricaneOfFreedom.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/t02_skill_SkywardSonnet.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Venti/skillIcons/c06_StormOfdefiance.png"
+    ]
+  },
+  "xiangling": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_03.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t02_skill_GuobaAttack.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t03_burst_Pyronado.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t04_combatPassive_Crossfire.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t05_combatPassive_BewareItsSuperHot.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t06_systemPassive_ChefDeCuisine.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/c01_CrispyOutsideTenderInside.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/c02_OilMeetsFire.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t03_burst_Pyronado.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/c04_Slowbake.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/t02_skill_GuobaAttack.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiangling/skillIcons/c06_CondensedPyronado.png"
+    ]
+  },
+  "xiao": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_03.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiao/skillIcons/t02_skill_LemniscaticWindCycling.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xiao/skillIcons/t03_burst_BaneofAllEvil.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_262301.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_262101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_262201.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_261.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_262.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_263.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_264.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_265.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_266.png"
+    ]
+  },
+  "xingqiu": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t02_skill_GuhuaSwordFatalRainscreen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t03_burst_GuhuaSwordRaincutter.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t04_combatPassive_Hydropathic.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t05_combatPassive_BladesAmidstRaindrops.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t06_systemPassive_FlashOfGenius.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/c01_TheScentRemained.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/c02_RainbowUponTheAzureSky.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t03_burst_GuhuaSwordRaincutter.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/c04_Evilsoother.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/t02_skill_GuhuaSwordFatalRainscreen.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Xingqiu/skillIcons/c06_HenceCallThemMyOwnVerses.png"
+    ]
+  },
+  "xinyan": {
+    "skillTalents": ["", "", ""],
+    "passiveTalents": ["", "", ""],
+    "constellations": ["", "", "", "", "", ""]
+  },
+  "yanfei": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t02_skill_SignedEdict.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t03_burst_DoneDeal.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t04_combatPassive_Proviso.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t05_combatPassive_XiezhisEye.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t06_systemPassive_EncyclopedicExpertise.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/c01_TheLawKnowsNoKindness.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/c02_RightofFinalInterpretation.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t02_skill_SignedEdict.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/c04_SupremeAmnesty.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/t03_burst_DoneDeal.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Yanfei/skillIcon/c06_ExtraClause.png"
+    ]
+  },
+  "yoimiya": {
+    "skillTalents": ["", "", ""],
+    "passiveTalents": ["", "", ""],
+    "constellations": ["", "", "", "", "", ""]
+  },
+  "zhongli": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_03.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t02_skill_dominusLapidis.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t03_burst_planetBefall.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t04_combatPassive_resonantWaves.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t05_combatPassive_dominanceOfEarth.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t06_systemPassive_arcanumOfCrystal.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/c01_rockTheBackboneOfEarth.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/c02_stoneTheCradleOfJade.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t02_skill_dominusLapidis.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/c04_topazUnbreakableAndFearless.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/t03_burst_planetBefall.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Zhongli/skillIcon/c06_chrysosBountyOfDominator.png"
+    ]
   }
 }
