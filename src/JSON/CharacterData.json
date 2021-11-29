@@ -381,9 +381,25 @@
     ]
   },
   "kokomi": {
-    "skillTalents": ["", "", ""],
-    "passiveTalents": ["", "", ""],
-    "constellations": ["", "", "", "", "", ""]
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_Catalyst_MD.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_543201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_543901.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_542101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_542201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_542301.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_542501.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_541.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_542.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_543.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_544.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_545.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_546.png"
+    ]
   },
   "lisa": {
     "skillTalents": [
@@ -567,9 +583,24 @@
     ]
   },
   "sayu": {
-    "skillTalents": ["", "", ""],
-    "passiveTalents": ["", "", ""],
-    "constellations": ["", "", "", "", "", ""]
+    "skillTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/s_533101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_533201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_533901.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_532301.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_532101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_532201.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_531.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_532.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_533.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_534.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_535.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_536.png"
+    ]
   },
   "sucrose": {
     "skillTalents": [
@@ -610,6 +641,63 @@
       "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c04_AbyssalMayhemHydrospout.png",
       "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c03_burst_HavocObliteration.png",
       "https://www.gensh.in/fileadmin/Database/Characters/Tartaglia/skillIcons/c06_HavocAnnihilation.png"
+    ]
+  },
+  "traveler-anemo": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t02_skill_PalmVortex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t03_burst_GustSurge.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t04_combatPassive_SittingWind.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t05_combatPassive_SecondWind.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/c01_RagingVortex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/c02_UprisingWhirlwind.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t03_burst_GustSurge.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/c04_CherishingBreezes.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/t02_skill_PalmVortex.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Anemo/c06_IntertwinedWinds.png"
+    ]
+  },
+  "traveler-electro": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_103201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_103901.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_102101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_102201.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_102.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_103.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_104.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_105.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_106.png"
+    ]
+  },
+  "traveler-geo": {
+    "skillTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Skill_A_01.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t02_skill_StarfellSword.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t03_burst_WakeOfEarth.png"
+    ],
+    "passiveTalents": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t04_combatPassive_ShatteredDarkrock.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t05_combatPassive_FrenziedRockslide.png"
+    ],
+    "constellations": [
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/c01_InvincibleStonewall.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/c02_RockcoreMeltdown.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t03_burst_WakeOfEarth.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/c04_ReactionForce.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/t02_skill_StarfellSword.png",
+      "https://www.gensh.in/fileadmin/Database/Characters/Traveller/skillIcons/Geo/c06_EverlastingBoulder.png"
     ]
   },
   "thoma": {
@@ -698,9 +786,24 @@
     ]
   },
   "xinyan": {
-    "skillTalents": ["", "", ""],
-    "passiveTalents": ["", "", ""],
-    "constellations": ["", "", "", "", "", ""]
+    "skillTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/s_443101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_443201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_443901.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_442301.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_442101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_442201.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_441.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_442.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_443.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_444.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_445.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_446.png"
+    ]
   },
   "yanfei": {
     "skillTalents": [
@@ -723,9 +826,24 @@
     ]
   },
   "yoimiya": {
-    "skillTalents": ["", "", ""],
-    "passiveTalents": ["", "", ""],
-    "constellations": ["", "", "", "", "", ""]
+    "skillTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/s_493101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_493201.png",
+      "https://genshin.honeyhunterworld.com/img/skills/s_493901.png"
+    ],
+    "passiveTalents": [
+      "https://genshin.honeyhunterworld.com/img/skills/p_492301.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_492101.png",
+      "https://genshin.honeyhunterworld.com/img/skills/p_492201.png"
+    ],
+    "constellations": [
+      "https://genshin.honeyhunterworld.com/img/skills/c_491.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_492.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_493.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_494.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_495.png",
+      "https://genshin.honeyhunterworld.com/img/skills/c_496.png"
+    ]
   },
   "zhongli": {
     "skillTalents": [
