@@ -130,7 +130,6 @@ function CharacterDetails({ match }) {
         </ul>
       </div>
 
-      {console.log(extraDetail.skillTalents)}
       <CharDetailsSub
         title="Skill Talents"
         info={skill}
