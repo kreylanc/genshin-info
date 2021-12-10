@@ -13,7 +13,7 @@ function App() {
         {/* when changing routes the scroll position doesnt revert to top */}
         <ScrollToTop />
         <Switch>
-          <Route exact path="/characters">
+          <Route exact path={["/", "/characters"]}>
             <CharacterScreen />
           </Route>
           {/* need to pass the component throught Route param inorder to access

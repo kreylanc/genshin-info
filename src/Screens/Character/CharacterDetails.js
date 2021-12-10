@@ -12,7 +12,7 @@ function CharacterDetails({ match }) {
   //  /characters/albedo <---- albedo here is   character_id
   const mergedUrl = `${requests.fetchCharacters}/${match.params.id}`;
 
-  //An object value also be accessed by using brackets [] instead of dot to access properties with dynamic value
+  //An object value also be accessed by using brackets [] instead of dot (.) to access properties with dynamic value
 
   const extraDetail = CharacterData[match.params.id];
 
@@ -31,19 +31,25 @@ function CharacterDetails({ match }) {
   const [constellation, setConstellation] = useState([]);
 
   useEffect(() => {
-    fetchData();
-  }, []);
-
-  useEffect(() => {
     setSkill(charDetails.skillTalents);
     setPassive(charDetails.passiveTalents);
     setConstellation(charDetails.constellations);
   }, [charDetails]);
 
+  //  useState for loading
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   const fetchData = async () => {
     const request = await axios.get(mergedUrl);
 
     setcharDetails(request.data);
+
+    if (request.data != null) {
+      setIsLoading(false);
+    }
   };
 
   //  the api sends value as 0000-11-23
@@ -60,94 +66,104 @@ function CharacterDetails({ match }) {
 
   return (
     <div className="w-full lg:w-4/5 m-auto md:mt-10 px-3 md:px-7 py-5 text-gray-300 bg-gray-750 text-base md:text-xl  lg:shadow-md transition-all duration-200 ease-in">
-      <div className="flex justify-between flex-col md:flex-row">
-        <div>
-          <h1 className=" text-3xl md:text-5xl font-bold text-white mb-3">
-            {charDetails.name}
-          </h1>
-
-          <CharDetailsMain
-            title="Rarity"
-            content={charDetails.rarity}
-            image={star}
-          />
-          <CharDetailsMain title="Vision" content={charDetails.vision} />
-          <CharDetailsMain title="Weapon" content={charDetails.weapon} />
-          <CharDetailsMain title="Nation" content={charDetails.nation} />
-          <CharDetailsMain
-            title="Affiliation"
-            content={charDetails.affiliation}
-          />
-          <CharDetailsMain title="Birthday" content={getBirthday()} />
-
-          <h2 className="md:w-9/12 mt-2">
-            Description: {charDetails.description}
-          </h2>
+      {isLoading ? (
+        <div class="flex h-screen items-center justify-center space-x-2 animate-pulse">
+          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
+          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
+          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
         </div>
+      ) : (
+        <div>
+          <div className="flex justify-between flex-col md:flex-row">
+            <div>
+              <h1 className=" text-3xl md:text-5xl font-bold text-white mb-3">
+                {charDetails.name}
+              </h1>
 
-        <img
-          src={`${baseUrl}${mergedUrl}/portrait`}
-          alt=""
-          className="object-contain h-96 m-auto mt-5 md:m-0 md:mt-0"
-        />
-      </div>
+              <CharDetailsMain
+                title="Rarity"
+                content={charDetails.rarity}
+                image={star}
+              />
+              <CharDetailsMain title="Vision" content={charDetails.vision} />
+              <CharDetailsMain title="Weapon" content={charDetails.weapon} />
+              <CharDetailsMain title="Nation" content={charDetails.nation} />
+              <CharDetailsMain
+                title="Affiliation"
+                content={charDetails.affiliation}
+              />
+              <CharDetailsMain title="Birthday" content={getBirthday()} />
 
-      <div className="flex items-center mt-10 bg-gray-medium bg-opacity-70  h-12 filter drop-shadow-lg sticky top-2">
-        <ul className="flex w-full   md:w-3/5 cursor-pointer transition-all duration-200 ease-in text-gray-300 md:p-4 md:text-lg lg:text-xl ">
-          <Link
-            className="nav-sub "
-            activeClass="nav-sub active"
-            to="SkillSection"
-            spy={true}
-            smooth={true}
-            offset={-60}
-            duration={500}
-          >
-            Skill Talents
-          </Link>
-          <Link
-            className="nav-sub"
-            activeClass="nav-sub active"
-            to="PassiveSection"
-            spy={true}
-            smooth={true}
-            offset={-60}
-            duration={500}
-          >
-            Passive Talents
-          </Link>
-          <Link
-            className="nav-sub"
-            activeClass="nav-sub active"
-            to="ConstellationSection"
-            spy={true}
-            smooth={true}
-            offset={-60}
-            duration={500}
-          >
-            Constellations
-          </Link>
-        </ul>
-      </div>
+              <h2 className="md:w-9/12 mt-2">
+                Description: {charDetails.description}
+              </h2>
+            </div>
 
-      <CharDetailsSub
-        title="Skill Talents"
-        info={skill}
-        extraInfo={extraDetail.skillTalents}
-        linkId="SkillSection"
-      />
-      <CharDetailsSub
-        title="Passive Talents"
-        info={passive}
-        extraInfo={extraDetail.passiveTalents}
-        linkId="PassiveSection"
-      />
-      <CharDetailsSub
-        title="Constellation"
-        info={constellation}
-        extraInfo={extraDetail.constellations}
-        linkId="ConstellationSection"
-      />
+            <img
+              src={`${baseUrl}${mergedUrl}/portrait`}
+              alt="Character Potrait"
+              className="object-contain h-96 m-auto mt-5 md:m-0 md:mt-0"
+            />
+          </div>
+
+          <div className="flex items-center mt-10 bg-gray-medium bg-opacity-70  h-12 filter drop-shadow-lg sticky top-2">
+            <ul className="flex w-full   md:w-3/5 cursor-pointer transition-all duration-200 ease-in text-gray-300 md:p-4 md:text-lg lg:text-xl ">
+              <Link
+                className="nav-sub "
+                activeClass="nav-sub active"
+                to="SkillSection"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+              >
+                Skill Talents
+              </Link>
+              <Link
+                className="nav-sub"
+                activeClass="nav-sub active"
+                to="PassiveSection"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+              >
+                Passive Talents
+              </Link>
+              <Link
+                className="nav-sub"
+                activeClass="nav-sub active"
+                to="ConstellationSection"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+              >
+                Constellations
+              </Link>
+            </ul>
+          </div>
+
+          <CharDetailsSub
+            title="Skill Talents"
+            info={skill}
+            extraInfo={extraDetail.skillTalents}
+            linkId="SkillSection"
+          />
+          <CharDetailsSub
+            title="Passive Talents"
+            info={passive}
+            extraInfo={extraDetail.passiveTalents}
+            linkId="PassiveSection"
+          />
+          <CharDetailsSub
+            title="Constellation"
+            info={constellation}
+            extraInfo={extraDetail.constellations}
+            linkId="ConstellationSection"
+          />
+        </div>
+      )}
     </div>
   );
 }

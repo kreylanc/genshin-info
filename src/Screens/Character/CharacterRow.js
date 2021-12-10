@@ -26,8 +26,6 @@ function CharacterRow() {
 
   const searchTerm = useSelector(selectSearchTerm);
 
-  console.log(searchTerm);
-
   const weapon = useSelector(selectWeapon);
   const vision = useSelector(selectVision);
   const rarity = useSelector(selectRarity);
@@ -83,18 +81,6 @@ function CharacterRow() {
       setLoading(false);
     }
   };
-
-  // //the useEffect is used for fetching character names from the api
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     const request = await axios.get(requests.fetchCharacters);
-
-  //     setCharacters(request.data);
-  //   }
-
-  //   fetchData();
-
-  // }, []);
 
   //this useEffect is used for fetching character details
   useEffect(() => {
