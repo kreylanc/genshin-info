@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavOptions from "./NavOptions";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [clicked, setClicked] = useState(false);
@@ -12,10 +13,12 @@ function Navbar() {
     <div className="bg-gray-light bg-opacity-50 w-full m-auto flex text-white h-20">
       <div className="w-full lg:w-4/5 flex m-auto items-center p-2 justify-between transition-all duration-200 ease-in">
         <div className="cursor-pointer ml-4 lg:ml-6 object-contain">
-          <img
-            src="https://www.gensh.in/typo3conf/ext/awsm_page_package/Resources/Public/Images/Logo/logo_genshin_40_white.png"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              src="https://www.gensh.in/typo3conf/ext/awsm_page_package/Resources/Public/Images/Logo/logo_genshin_40_white.png"
+              alt=""
+            />
+          </Link>
         </div>
 
         <div
