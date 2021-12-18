@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from "react";
-import axios from "../../api/axios";
+import axiosInstance from "../../api/axios";
+import axios from "axios";
 import requests from "../../api/requests";
 import CharDetailsMain from "./CharDetailsMain";
 import CharDetailsSub from "./CharDetailsSub";
 import { Link } from "react-scroll";
 import star from "../../star.png";
 import CharacterData from "../../JSON/CharacterData.json";
+import CharacterAscension from "./CharacterAscension";
+import { useParams, Navigate } from "react-router-dom";
 
-function CharacterDetails({ match }) {
+function CharacterDetails() {
+  const params = useParams();
   //  The merged url will look like this:
-  //  /characters/albedo <---- albedo here is   character_id
-  const mergedUrl = `${requests.fetchCharacters}/${match.params.id}`;
+  //  /characters/albedo <---- albedo here is  character_id passed from earlier page
+  const mergedUrl = `${requests.fetchCharacters}/${params.id}`;
 
   //An object value also be accessed by using brackets [] instead of dot (.) to access properties with dynamic value
 
-  const extraDetail = CharacterData[match.params.id];
+  const extraDetail = CharacterData[params.id];
 
   const baseUrl = "https://api.genshin.dev";
 
@@ -25,31 +29,57 @@ function CharacterDetails({ match }) {
     constellations: [{}],
   });
 
-  //  the useState below gets value from the charDetails variable
-  const [skill, setSkill] = useState([]);
-  const [passive, setPassive] = useState([]);
-  const [constellation, setConstellation] = useState([]);
-
-  useEffect(() => {
-    setSkill(charDetails.skillTalents);
-    setPassive(charDetails.passiveTalents);
-    setConstellation(charDetails.constellations);
-  }, [charDetails]);
+  useEffect(() => {}, [charDetails]);
 
   //  useState for loading
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   useEffect(() => {
     fetchData();
+
+    fetchMaterialData();
   }, []);
 
   const fetchData = async () => {
-    const request = await axios.get(mergedUrl);
+    const request = await axiosInstance.get(mergedUrl);
 
-    setcharDetails(request.data);
-
-    if (request.data != null) {
-      setIsLoading(false);
+    if (request.status === 404) {
+      setError("Task Not Found");
     }
+    const data = await request.data;
+
+    setcharDetails(data);
+    setIsLoading(false);
+
+    if (charDetails.length > 0) {
+    }
+  };
+
+  if (error) {
+    return <Navigate to="/Characters" />;
+  }
+
+  const fetchMaterialData = async () => {
+    const getCharAscension = axiosInstance.get(
+      requests.fetchCharacterAscension
+    );
+    const getBossMat = axiosInstance.get(requests.fetchBossMaterials);
+    const getCommonAscension = axiosInstance.get(requests.fetchCommonAscension);
+    const getLocalSpecial = axiosInstance.get(requests.fetchLocalSpecialties);
+
+    await axios
+      .all([getBossMat, getCharAscension, getCommonAscension, getLocalSpecial])
+      .then(
+        axios.spread((...response) => {
+          const bossMat = response[0].data;
+          const charAscension = response[1].data;
+          const commonAscension = response[2].data;
+          const local = response[3].data;
+          console.log(charAscension);
+          console.log(bossMat);
+        })
+      );
   };
 
   //  the api sends value as 0000-11-23
@@ -67,10 +97,10 @@ function CharacterDetails({ match }) {
   return (
     <div className="w-full lg:w-4/5 m-auto md:mt-10 px-3 md:px-7 py-5 text-gray-300 bg-gray-750 text-base md:text-xl  lg:shadow-md transition-all duration-200 ease-in">
       {isLoading ? (
-        <div class="flex h-screen items-center justify-center space-x-2 animate-pulse">
-          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
-          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
-          <div class="w-8 h-8 bg-gray-400 rounded-full"></div>
+        <div className="flex h-screen items-center justify-center space-x-2 animate-pulse">
+          <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+          <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+          <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
         </div>
       ) : (
         <div>
@@ -141,27 +171,40 @@ function CharacterDetails({ match }) {
               >
                 Constellations
               </Link>
+              <Link
+                className="nav-sub"
+                activeClass="nav-sub active"
+                to="AscensionSection"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+              >
+                Ascension
+              </Link>
             </ul>
           </div>
 
           <CharDetailsSub
             title="Skill Talents"
-            info={skill}
+            info={charDetails.skillTalents}
             extraInfo={extraDetail.skillTalents}
             linkId="SkillSection"
           />
           <CharDetailsSub
             title="Passive Talents"
-            info={passive}
+            info={charDetails.passiveTalents}
             extraInfo={extraDetail.passiveTalents}
             linkId="PassiveSection"
           />
           <CharDetailsSub
             title="Constellation"
-            info={constellation}
+            info={charDetails.constellations}
             extraInfo={extraDetail.constellations}
             linkId="ConstellationSection"
           />
+
+          <CharacterAscension title="Ascension" linkId="AscensionSection" />
         </div>
       )}
     </div>
