@@ -40,33 +40,33 @@ function CharacterRow() {
 
   const fetchCharDetails = async () => {
     //checking if the filter is empty (meaning display all)
-    if (weapon == "" && vision == "" && rarity == "") {
+    if (weapon === "" && vision === "" && rarity === "") {
       filterUrl = "";
     }
     // when all the filters are selected
-    else if (weapon != "" && vision != "" && rarity != "") {
+    else if (weapon !== "" && vision !== "" && rarity !== "") {
       filterUrl = `weapon=${weapon}&vision=${vision}&rarity=${rarity}`;
     }
     //when only weapon filter is selected
-    else if (weapon != "" && vision == "" && rarity == "") {
+    else if (weapon !== "" && vision == "" && rarity == "") {
       filterUrl = `weapon=${weapon}`;
     }
     //when only vision filter is selected
-    else if (weapon == "" && vision != "" && rarity == "") {
+    else if (weapon == "" && vision !== "" && rarity == "") {
       filterUrl = `vision=${vision}`;
     }
     //when only rarity filter is selected
-    else if (weapon == "" && vision == "" && rarity != "") {
+    else if (weapon === "" && vision === "" && rarity !== "") {
       filterUrl = `rarity=${rarity}`;
     }
     //if not empty then provide the condition in the api to filter data
     //condition when weapon filter is selected
     else {
-      if (weapon != "" && rarity != "") {
+      if (weapon !== "" && rarity !== "") {
         filterUrl = `weapon=${weapon}&rarity=${rarity}`;
-      } else if (weapon != "" && vision != "") {
+      } else if (weapon !== "" && vision !== "") {
         filterUrl = `weapon=${weapon}&vision=${vision}`;
-      } else if (vision != "" && rarity != "") {
+      } else if (vision !== "" && rarity !== "") {
         filterUrl = `vision=${vision}&rarity=${rarity}`;
       }
     }
@@ -77,7 +77,7 @@ function CharacterRow() {
 
     setCharDetails(promise.data);
 
-    if (promise.data != null) {
+    if (promise.data !== null) {
       setLoading(false);
     }
   };

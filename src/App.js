@@ -10,15 +10,16 @@ function App() {
   return (
     <div className="bg-gray-dark pb-4">
       <Navbar />
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<CharacterScreen />} />
 
-      <Routes>
-        <Route path="/" element={<CharacterScreen />} />
+          <Route path="characters" element={<CharacterScreen />}></Route>
+          <Route path="/characters/:id" element={<CharacterDetails />}></Route>
 
-        <Route path="characters" element={<CharacterScreen />}></Route>
-        <Route path="/characters/:id" element={<CharacterDetails />}></Route>
-
-        <Route path="artifacts" elements={<ArtifactScreen />}></Route>
-      </Routes>
+          <Route path="artifacts" elements={<ArtifactScreen />}></Route>
+        </Routes>
+      </ScrollToTop>
     </div>
   );
 }
