@@ -7,7 +7,11 @@ function NavOptions({ link, title }) {
     <div className="  p-4">
       <NavLink
         to={link}
-        className={`h-14 flex items-center p-5 sm:p-0 sm:h-auto text-gray-300 hover:text-gray-100`}
+        className={({ isActive }) =>
+          isActive
+            ? "text-red-500 hover:text-red-500"
+            : `h-14 flex items-center p-5 sm:p-0 sm:h-auto text-gray-300 hover:text-gray-100`
+        }
         activeClassName="text-red-500 hover:text-red-500"
       >
         <h2>{title}</h2>
