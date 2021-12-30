@@ -18,7 +18,7 @@ import { selectSearchTerm } from "../../features/searchSlice";
 function CharacterRow() {
   const dispatch = useDispatch();
 
-  const exception = ["Traveler", "Raiden", "Hu Tao"];
+  const exception = ["Traveler", "Raiden", "Hu Tao", "Arataki Itto"];
 
   // const [characters, setCharacters] = useState([]);
   const [charDetails, setCharDetails] = useState([]);
@@ -124,10 +124,12 @@ function CharacterRow() {
     if (reWhiteSpace.test(string) && !ignoreName) {
       return string.substring(string.indexOf(" ") + 1);
     } else {
-      if (string === "Traveler" && vision != undefined) {
+      if (string === "Traveler" && vision !== undefined) {
         return (string = string + "-" + vision);
       } else if (string === "Hu Tao") {
         return (string = "Hu-Tao");
+      } else if (string === "Arataki Itto") {
+        return (string = "Arataki-Itto");
       }
       return string;
     }

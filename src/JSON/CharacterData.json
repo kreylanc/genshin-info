@@ -59,6 +59,11 @@
       "https://www.gensh.in/fileadmin/Database/Characters/Amber/skillIcons/c06_Wildfire.png"
     ]
   },
+  "arataki-itto": {
+    "skillTalents": [],
+    "passiveTalents": [],
+    "constellations": []
+  },
   "ayaka": {
     "skillTalents": [
       "https://www.gensh.in/fileadmin/Database/Characters/Ayaka/skillIcons/t01_KamisatoArtKabuki.png",
